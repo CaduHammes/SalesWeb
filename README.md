@@ -1,4 +1,4 @@
 # SalesWeb
 ASP.NET Core MVC project
 
--Using .NET Core 2.1
+- Using .NET Core 2.1
