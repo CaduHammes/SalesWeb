@@ -19,7 +19,7 @@ namespace SalesWebMvc.Controllers
         {
             ViewData["Message"] = "Your application description page.";
             ViewData["Email"] = "cadu@email.com";
-
+            ViewData["myname"] = "Carlos Eduardo";
             return View();
         }
 
