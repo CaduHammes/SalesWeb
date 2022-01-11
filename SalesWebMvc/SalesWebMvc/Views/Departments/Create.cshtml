@@ -4,9 +4,23 @@
     ViewData["Title"] = "Create";
 }
 
-<h2>Create</h2>
-
-<h4>Department</h4>
+<style>
+    .vcenter {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        float: none;
+        text-align: center;
+    }
+    .buttom {
+        padding: 25px 12px 7px !important;
+    }
+</style>
+<div class="vcenter">
+    <h2 class="">Create a new department</h2>
+    <a asp-action="Index" class="btn btn-default buttom">Back to List</a>
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,9 +38,7 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
